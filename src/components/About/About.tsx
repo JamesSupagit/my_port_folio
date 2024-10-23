@@ -10,6 +10,16 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import ansibleIcon from "../../assets/ansible.svg";
+import arduinoIcon from "../../assets/arduino.svg";
+import githubIcon from "../../assets/github-icon.svg";
+import herokuIcon from "../../assets/heroku.svg";
+import homebrewIcon from "../../assets/homebrew.svg";
+import openaiIcon from "../../assets/openai-icon.svg";
+import opencvIcon from "../../assets/opencv.svg";
+import raspberryIcon from "../../assets/raspberry-pi.svg";
+import rockylinuxIcon from "../../assets/rocky-linux-icon.svg";
+import webhookIcon from "../../assets/webhooks.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
@@ -30,13 +40,13 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-          When I’m not working, I love exploring new places—whether hiking, camping, or discovering vibrant cities. There’s nothing quite like unwinding with a cold beer by the campfire after a day of adventure.</p>
+          On the investment side, I enjoy analyzing financial markets and making informed decisions to maximize returns. By combining through research with strategic planning, I aim to identify opportunities and navigate risks in the ever-evolving landscape of finance.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
-          <div className="hability">
+          {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
               <img src={wordpress} alt="Wordpress" />
             </ScrollAnimation>
@@ -45,7 +55,7 @@ export function About() {
             <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
               <img src={shopify} alt="shopify" />
             </ScrollAnimation>
-          </div>
+          </div> */}
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
               <img src={reactIcon} alt="React" />
@@ -86,6 +96,56 @@ export function About() {
               <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={ansibleIcon} alt="Ansible" />
+            </ScrollAnimation>
+          </div>    
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={githubIcon} alt="Github" />
+            </ScrollAnimation>
+          </div>    
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={homebrewIcon} alt="Homebrew" />
+            </ScrollAnimation>
+          </div>    
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={openaiIcon} alt="OpenAI" />
+            </ScrollAnimation>
+          </div>    
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={opencvIcon} alt="OpenCV" />
+            </ScrollAnimation>
+          </div>    
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={raspberryIcon} alt="Raspberry-Pi" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={rockylinuxIcon} alt="Rockylinux" />
+            </ScrollAnimation>
+          </div>    
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={webhookIcon} alt="Webhook" />
+            </ScrollAnimation>
+          </div>    
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={arduinoIcon} alt="Arduino" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={herokuIcon} alt="Heroku" />
+            </ScrollAnimation>
+          </div>    
         </div>
       </div>
       <div className="about-image">

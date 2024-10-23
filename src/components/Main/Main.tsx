@@ -1,6 +1,7 @@
 import Particles from "react-tsparticles"
 import { Container } from "./styles";
 import { Hero } from "../Hero/Hero";
+import Tradingview from "../Tradingview/Tradingview"
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
@@ -257,6 +258,7 @@ export function Main() {
       />
       <Hero></Hero>
       <About></About>
+      <Tradingview></Tradingview>
       <Project></Project>
       <Contact></Contact>
     </Container>
