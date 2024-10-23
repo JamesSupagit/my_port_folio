@@ -24,10 +24,10 @@ export function Project() {
                 </a> </div>
             </header>
             <div className="body">
-              <h3>Fire Alarm System: using Python - [Image Processing]</h3>
+              <h3>Fire Alarm System: Python Image Processing</h3>
               <p> This project aims to develop a fire detection system that focuses exclusively on identifying images of fire using Python and image processing techniques. By employing libraries such as OpenCV, the system analyzes visual data to recognize flames based on distinct features like color, shape, and intensity.</p>
             </div>
-            <footer> <ul className="tech-list"> <li>AWS Lambda</li> <li>API Gateway</li> <li>DynamoDB</li> </ul> </footer>
+            <footer> <ul className="tech-list"> <li>Python</li> <li>Image Processing</li> <li>Fire Alarm System</li> </ul> </footer>
           </div>
         </ScrollAnimation>
 
@@ -58,7 +58,7 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+        {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
@@ -173,7 +173,7 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
 
         {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">

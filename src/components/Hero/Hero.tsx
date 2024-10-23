@@ -6,6 +6,7 @@ import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import youtube from '../../assets/youtube.svg'
+import tradingview from '../../assets/tradingview.svg'
 import Hello from '../../assets/Hello.gif'
 import faceboook from '../../assets/faceboook.svg'
 export function Hero() {
@@ -57,6 +58,13 @@ export function Hero() {
           rel="noreferrer"
         >
           <img src={faceboook} alt="Faceboook" />
+        </a>
+        <a
+          href="https://www.tradingview.com/u/ANONYMOUS_123456789/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={tradingview} alt="Tradingview" />
         </a></div>
         </ScrollAnimation>
       </div>

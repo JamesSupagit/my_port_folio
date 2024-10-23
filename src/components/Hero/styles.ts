@@ -31,7 +31,7 @@ export const Container = styled.section`
     justify-content: space-between;
     gap: 1rem;
     padding-top:5rem;
-    padding-left:1rem;
+    padding-left:0rem;
 
     img,span{
       font-size: 3rem;
