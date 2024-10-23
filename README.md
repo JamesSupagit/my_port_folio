@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Portfolio of Vinayak Singh
 
 <img src ="https://github.com/CodeVinayak/CodeVinayak/blob/5920a79f4c5977332a67caf91125241cf0fc46b5/www.vinayaksingh.in.png" />
@@ -14,3 +15,7 @@ This is my portfolio website to introduce myself, here I put my skills, projects
 ## To run this project:
 - yarn install
 - yarn run start
+=======
+# my_port_folio
+here is my port folio web site that build by using yarn framework
+>>>>>>> 1621a101ff6e3970923fd6782caba748159313ea
