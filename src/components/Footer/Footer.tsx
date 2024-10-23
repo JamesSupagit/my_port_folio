@@ -2,8 +2,8 @@ import { Container } from './styles'
 import reactIcon from '../../assets/react-icon.svg'
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
-import whatsapp from '../../assets/whatsapp.svg'
-import telegram from '../../assets/telegram.svg'
+import youtube from '../../assets/youtube.svg'
+import facebook from '../../assets/faceboook.svg'
 import instagramIcon from '../../assets/instagram.svg'
 // import discordIcon from '../../assets/discord.png'
 
@@ -40,14 +40,14 @@ export function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src={whatsapp} alt="Whatsapp" />
+          <img src={youtube} alt="Whatsapp" />
         </a>
         <a
           href="https://t.me/CodeVinayak"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={telegram} alt="telegram" />
+          <img src={facebook} alt="Facebook" />
         </a>
         <a
           href="https://www.instagram.com/vinayaksingh.in"

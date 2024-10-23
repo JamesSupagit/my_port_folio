@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.png";
+import JamesSupagit from "../../assets/jamessupagit.jpg";
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -21,16 +21,16 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinayak, a website developer with a passion for creating custom online experiences for my clients. With a skill set including HTML, CSS, JavaScript, and React, I have the tools to bring any website vision to life.
+          Hi! I’m James Supagit, a cybersecurity enthusiast dedicated to protecting digital assets and ensuring data integrity. With four years of experience in the field, I actively engage with emerging threats and implement innovative solutions, constantly striving to stay ahead in this dynamic landscape.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            But my services go beyond just custom development - I'm also proficient in using CMS systems like WordPress and Shopify, making it easy for my clients to take control of their own websites and keep them up to date.</p>
+          Alongside my passion for cybersecurity, I enjoy analyzing financial markets and making informed investment decisions. By combining thorough research with strategic planning, I aim to identify opportunities and navigate risks in the ever-evolving finance sector.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            So if you're in need of a new website or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website dreams to reality together!</p>
+          When I’m not working, I love exploring new places—whether hiking, camping, or discovering vibrant cities. There’s nothing quite like unwinding with a cold beer by the campfire after a day of adventure.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
@@ -90,7 +90,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <img src={JamesSupagit} alt="James Supagit" />
         </ScrollAnimation>
       </div>
     </Container>

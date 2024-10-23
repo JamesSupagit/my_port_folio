@@ -5,9 +5,9 @@ import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
-import whatsapp from '../../assets/whatsapp.svg'
+import youtube from '../../assets/youtube.svg'
 import Hello from '../../assets/Hello.gif'
-import telegram from '../../assets/telegram.svg'
+import faceboook from '../../assets/faceboook.svg'
 export function Hero() {
   return (
     <Container id="home">
@@ -16,10 +16,10 @@ export function Hero() {
           <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1>Vinayak Singh</h1>
+          <h1>James Supagit</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Full Stack Developer</h3>
+          <h3>Security Engineer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume">4 Years of Experience</p>
@@ -31,32 +31,32 @@ export function Hero() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
       <div className="social-media"><a
-        href="https://www.linkedin.com/in/codevinayak"
+        href="https://www.linkedin.com/in/supagit-ruarn/"
         target="_blank"
         rel="noreferrer"
       >
         <img src={linkedin} alt="Linkedin" />
       </a>
         <a
-          href="https://github.com/CodeVinayak/"
+          href="https://github.com/JamesSupagit/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak"
+          href="https://www.youtube.com/@jamessupagit6294"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={whatsapp} alt="Whatsapp" />
+          <img src={youtube} alt="Youtube" />
         </a>
         <a
-          href="https://t.me/CodeVinayak"
+          href="https://www.facebook.com/supagit.ruarn/"
           target="_blank"
           rel="noreferrer"
         >
-          <img src={telegram} alt="telegram" />
+          <img src={faceboook} alt="Faceboook" />
         </a></div>
         </ScrollAnimation>
       </div>
