@@ -92,7 +92,7 @@ const TradingViewWidget: React.FC = () => {
 
   return (
     <Container>
-      <h2>TradingView Chart</h2>
+      <h2>Right shift Chart</h2>
       <WidgetContainer ref={container} className="tradingview-widget-container"></WidgetContainer>
     </Container>
   );
